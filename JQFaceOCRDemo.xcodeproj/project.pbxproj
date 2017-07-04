@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		479631C01F0B7EC2004EF0F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 479631BF1F0B7EC2004EF0F7 /* main.m */; };
+		479631C31F0B7EC2004EF0F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 479631C21F0B7EC2004EF0F7 /* AppDelegate.m */; };
+		479631C61F0B7EC2004EF0F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 479631C51F0B7EC2004EF0F7 /* ViewController.m */; };
+		479631C91F0B7EC2004EF0F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479631C71F0B7EC2004EF0F7 /* Main.storyboard */; };
+		479631CB1F0B7EC2004EF0F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 479631CA1F0B7EC2004EF0F7 /* Assets.xcassets */; };
+		479631CE1F0B7EC2004EF0F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479631CC1F0B7EC2004EF0F7 /* LaunchScreen.storyboard */; };
+		479631D91F0B7EC2004EF0F7 /* JQFaceOCRDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 479631D81F0B7EC2004EF0F7 /* JQFaceOCRDemoTests.m */; };
+		479631E41F0B7EC2004EF0F7 /* JQFaceOCRDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 479631E31F0B7EC2004EF0F7 /* JQFaceOCRDemoUITests.m */; };
+		479632031F0B9A59004EF0F7 /* JQResulltViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 479631FE1F0B9A59004EF0F7 /* JQResulltViewController.m */; };
+		479632041F0B9A59004EF0F7 /* JQUploadPicRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 479632001F0B9A59004EF0F7 /* JQUploadPicRequest.m */; };
+		479632051F0B9A59004EF0F7 /* UIImage+GCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 479632021F0B9A59004EF0F7 /* UIImage+GCAdd.m */; };
+		E9D690BE5DEC7EF390048304 /* libPods-JQFaceOCRDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 284508A6AD2EF7A8177B0B9A /* libPods-JQFaceOCRDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		479631D51F0B7EC2004EF0F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 479631B31F0B7EC2004EF0F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 479631BA1F0B7EC2004EF0F7;
+			remoteInfo = JQFaceOCRDemo;
+		};
+		479631E01F0B7EC2004EF0F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 479631B31F0B7EC2004EF0F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 479631BA1F0B7EC2004EF0F7;
+			remoteInfo = JQFaceOCRDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F6199EE0B4F5D633164F9BE /* libPods-JQFaceOCRDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JQFaceOCRDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		284508A6AD2EF7A8177B0B9A /* libPods-JQFaceOCRDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JQFaceOCRDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		329BD8B05BE6F98988947E69 /* Pods-JQFaceOCRDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQFaceOCRDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JQFaceOCRDemo/Pods-JQFaceOCRDemo.release.xcconfig"; sourceTree = "<group>"; };
+		479631BB1F0B7EC2004EF0F7 /* JQFaceOCRDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQFaceOCRDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		479631BF1F0B7EC2004EF0F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		479631C11F0B7EC2004EF0F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		479631C21F0B7EC2004EF0F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		479631C41F0B7EC2004EF0F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		479631C51F0B7EC2004EF0F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		479631C81F0B7EC2004EF0F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		479631CA1F0B7EC2004EF0F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		479631CD1F0B7EC2004EF0F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		479631CF1F0B7EC2004EF0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		479631D41F0B7EC2004EF0F7 /* JQFaceOCRDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQFaceOCRDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		479631D81F0B7EC2004EF0F7 /* JQFaceOCRDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQFaceOCRDemoTests.m; sourceTree = "<group>"; };
+		479631DA1F0B7EC2004EF0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		479631DF1F0B7EC2004EF0F7 /* JQFaceOCRDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQFaceOCRDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		479631E31F0B7EC2004EF0F7 /* JQFaceOCRDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQFaceOCRDemoUITests.m; sourceTree = "<group>"; };
+		479631E51F0B7EC2004EF0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		479631FD1F0B9A59004EF0F7 /* JQResulltViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQResulltViewController.h; sourceTree = "<group>"; };
+		479631FE1F0B9A59004EF0F7 /* JQResulltViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQResulltViewController.m; sourceTree = "<group>"; };
+		479631FF1F0B9A59004EF0F7 /* JQUploadPicRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQUploadPicRequest.h; sourceTree = "<group>"; };
+		479632001F0B9A59004EF0F7 /* JQUploadPicRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQUploadPicRequest.m; sourceTree = "<group>"; };
+		479632011F0B9A59004EF0F7 /* UIImage+GCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GCAdd.h"; sourceTree = "<group>"; };
+		479632021F0B9A59004EF0F7 /* UIImage+GCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GCAdd.m"; sourceTree = "<group>"; };
+		71FC1E6FBE94707AC0BB7545 /* libPods-JQFaceOCRDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JQFaceOCRDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B027E6726B8661D2398214 /* Pods-JQFaceOCRDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQFaceOCRDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JQFaceOCRDemo/Pods-JQFaceOCRDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		479631B81F0B7EC2004EF0F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D690BE5DEC7EF390048304 /* libPods-JQFaceOCRDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479631D11F0B7EC2004EF0F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479631DC1F0B7EC2004EF0F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		479631B21F0B7EC2004EF0F7 = {
+			isa = PBXGroup;
+			children = (
+				479631BD1F0B7EC2004EF0F7 /* JQFaceOCRDemo */,
+				479631D71F0B7EC2004EF0F7 /* JQFaceOCRDemoTests */,
+				479631E21F0B7EC2004EF0F7 /* JQFaceOCRDemoUITests */,
+				479631BC1F0B7EC2004EF0F7 /* Products */,
+				AB63F956992A904819C5DABE /* Pods */,
+				DEEB8E13DAB387902B354953 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		479631BC1F0B7EC2004EF0F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				479631BB1F0B7EC2004EF0F7 /* JQFaceOCRDemo.app */,
+				479631D41F0B7EC2004EF0F7 /* JQFaceOCRDemoTests.xctest */,
+				479631DF1F0B7EC2004EF0F7 /* JQFaceOCRDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		479631BD1F0B7EC2004EF0F7 /* JQFaceOCRDemo */ = {
+			isa = PBXGroup;
+			children = (
+				479631FC1F0B9A59004EF0F7 /* JQFaceOCR */,
+				479631C11F0B7EC2004EF0F7 /* AppDelegate.h */,
+				479631C21F0B7EC2004EF0F7 /* AppDelegate.m */,
+				479631C41F0B7EC2004EF0F7 /* ViewController.h */,
+				479631C51F0B7EC2004EF0F7 /* ViewController.m */,
+				479631C71F0B7EC2004EF0F7 /* Main.storyboard */,
+				479631CA1F0B7EC2004EF0F7 /* Assets.xcassets */,
+				479631CC1F0B7EC2004EF0F7 /* LaunchScreen.storyboard */,
+				479631CF1F0B7EC2004EF0F7 /* Info.plist */,
+				479631BE1F0B7EC2004EF0F7 /* Supporting Files */,
+			);
+			path = JQFaceOCRDemo;
+			sourceTree = "<group>";
+		};
+		479631BE1F0B7EC2004EF0F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				479631BF1F0B7EC2004EF0F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		479631D71F0B7EC2004EF0F7 /* JQFaceOCRDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				479631D81F0B7EC2004EF0F7 /* JQFaceOCRDemoTests.m */,
+				479631DA1F0B7EC2004EF0F7 /* Info.plist */,
+			);
+			path = JQFaceOCRDemoTests;
+			sourceTree = "<group>";
+		};
+		479631E21F0B7EC2004EF0F7 /* JQFaceOCRDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				479631E31F0B7EC2004EF0F7 /* JQFaceOCRDemoUITests.m */,
+				479631E51F0B7EC2004EF0F7 /* Info.plist */,
+			);
+			path = JQFaceOCRDemoUITests;
+			sourceTree = "<group>";
+		};
+		479631FC1F0B9A59004EF0F7 /* JQFaceOCR */ = {
+			isa = PBXGroup;
+			children = (
+				479631FD1F0B9A59004EF0F7 /* JQResulltViewController.h */,
+				479631FE1F0B9A59004EF0F7 /* JQResulltViewController.m */,
+				479631FF1F0B9A59004EF0F7 /* JQUploadPicRequest.h */,
+				479632001F0B9A59004EF0F7 /* JQUploadPicRequest.m */,
+				479632011F0B9A59004EF0F7 /* UIImage+GCAdd.h */,
+				479632021F0B9A59004EF0F7 /* UIImage+GCAdd.m */,
+			);
+			path = JQFaceOCR;
+			sourceTree = "<group>";
+		};
+		AB63F956992A904819C5DABE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92B027E6726B8661D2398214 /* Pods-JQFaceOCRDemo.debug.xcconfig */,
+				329BD8B05BE6F98988947E69 /* Pods-JQFaceOCRDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DEEB8E13DAB387902B354953 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				284508A6AD2EF7A8177B0B9A /* libPods-JQFaceOCRDemo.a */,
+				1F6199EE0B4F5D633164F9BE /* libPods-JQFaceOCRDemoTests.a */,
+				71FC1E6FBE94707AC0BB7545 /* libPods-JQFaceOCRDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		479631BA1F0B7EC2004EF0F7 /* JQFaceOCRDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 479631E81F0B7EC2004EF0F7 /* Build configuration list for PBXNativeTarget "JQFaceOCRDemo" */;
+			buildPhases = (
+				A8E2CF75A6E560B1086B6846 /* [CP] Check Pods Manifest.lock */,
+				479631B71F0B7EC2004EF0F7 /* Sources */,
+				479631B81F0B7EC2004EF0F7 /* Frameworks */,
+				479631B91F0B7EC2004EF0F7 /* Resources */,
+				52586728518DBA53C941CB97 /* [CP] Embed Pods Frameworks */,
+				A6140C8AF7C91B2D8CAE0784 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JQFaceOCRDemo;
+			productName = JQFaceOCRDemo;
+			productReference = 479631BB1F0B7EC2004EF0F7 /* JQFaceOCRDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		479631D31F0B7EC2004EF0F7 /* JQFaceOCRDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 479631EB1F0B7EC2004EF0F7 /* Build configuration list for PBXNativeTarget "JQFaceOCRDemoTests" */;
+			buildPhases = (
+				479631D01F0B7EC2004EF0F7 /* Sources */,
+				479631D11F0B7EC2004EF0F7 /* Frameworks */,
+				479631D21F0B7EC2004EF0F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				479631D61F0B7EC2004EF0F7 /* PBXTargetDependency */,
+			);
+			name = JQFaceOCRDemoTests;
+			productName = JQFaceOCRDemoTests;
+			productReference = 479631D41F0B7EC2004EF0F7 /* JQFaceOCRDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		479631DE1F0B7EC2004EF0F7 /* JQFaceOCRDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 479631EE1F0B7EC2004EF0F7 /* Build configuration list for PBXNativeTarget "JQFaceOCRDemoUITests" */;
+			buildPhases = (
+				479631DB1F0B7EC2004EF0F7 /* Sources */,
+				479631DC1F0B7EC2004EF0F7 /* Frameworks */,
+				479631DD1F0B7EC2004EF0F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				479631E11F0B7EC2004EF0F7 /* PBXTargetDependency */,
+			);
+			name = JQFaceOCRDemoUITests;
+			productName = JQFaceOCRDemoUITests;
+			productReference = 479631DF1F0B7EC2004EF0F7 /* JQFaceOCRDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		479631B31F0B7EC2004EF0F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HaRi;
+				TargetAttributes = {
+					479631BA1F0B7EC2004EF0F7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K2K9REBKPR;
+						ProvisioningStyle = Automatic;
+					};
+					479631D31F0B7EC2004EF0F7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WTB2BKP7UZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 479631BA1F0B7EC2004EF0F7;
+					};
+					479631DE1F0B7EC2004EF0F7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WTB2BKP7UZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 479631BA1F0B7EC2004EF0F7;
+					};
+				};
+			};
+			buildConfigurationList = 479631B61F0B7EC2004EF0F7 /* Build configuration list for PBXProject "JQFaceOCRDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 479631B21F0B7EC2004EF0F7;
+			productRefGroup = 479631BC1F0B7EC2004EF0F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				479631BA1F0B7EC2004EF0F7 /* JQFaceOCRDemo */,
+				479631D31F0B7EC2004EF0F7 /* JQFaceOCRDemoTests */,
+				479631DE1F0B7EC2004EF0F7 /* JQFaceOCRDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		479631B91F0B7EC2004EF0F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479631CE1F0B7EC2004EF0F7 /* LaunchScreen.storyboard in Resources */,
+				479631CB1F0B7EC2004EF0F7 /* Assets.xcassets in Resources */,
+				479631C91F0B7EC2004EF0F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479631D21F0B7EC2004EF0F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479631DD1F0B7EC2004EF0F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52586728518DBA53C941CB97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JQFaceOCRDemo/Pods-JQFaceOCRDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6140C8AF7C91B2D8CAE0784 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JQFaceOCRDemo/Pods-JQFaceOCRDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8E2CF75A6E560B1086B6846 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		479631B71F0B7EC2004EF0F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479631C61F0B7EC2004EF0F7 /* ViewController.m in Sources */,
+				479632031F0B9A59004EF0F7 /* JQResulltViewController.m in Sources */,
+				479631C31F0B7EC2004EF0F7 /* AppDelegate.m in Sources */,
+				479631C01F0B7EC2004EF0F7 /* main.m in Sources */,
+				479632041F0B9A59004EF0F7 /* JQUploadPicRequest.m in Sources */,
+				479632051F0B9A59004EF0F7 /* UIImage+GCAdd.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479631D01F0B7EC2004EF0F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479631D91F0B7EC2004EF0F7 /* JQFaceOCRDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479631DB1F0B7EC2004EF0F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479631E41F0B7EC2004EF0F7 /* JQFaceOCRDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		479631D61F0B7EC2004EF0F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 479631BA1F0B7EC2004EF0F7 /* JQFaceOCRDemo */;
+			targetProxy = 479631D51F0B7EC2004EF0F7 /* PBXContainerItemProxy */;
+		};
+		479631E11F0B7EC2004EF0F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 479631BA1F0B7EC2004EF0F7 /* JQFaceOCRDemo */;
+			targetProxy = 479631E01F0B7EC2004EF0F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		479631C71F0B7EC2004EF0F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				479631C81F0B7EC2004EF0F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		479631CC1F0B7EC2004EF0F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				479631CD1F0B7EC2004EF0F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		479631E61F0B7EC2004EF0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		479631E71F0B7EC2004EF0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		479631E91F0B7EC2004EF0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92B027E6726B8661D2398214 /* Pods-JQFaceOCRDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K2K9REBKPR;
+				INFOPLIST_FILE = JQFaceOCRDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQFaceOCRDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		479631EA1F0B7EC2004EF0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 329BD8B05BE6F98988947E69 /* Pods-JQFaceOCRDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K2K9REBKPR;
+				INFOPLIST_FILE = JQFaceOCRDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQFaceOCRDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		479631EC1F0B7EC2004EF0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = JQFaceOCRDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQFaceOCRDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JQFaceOCRDemo.app/JQFaceOCRDemo";
+			};
+			name = Debug;
+		};
+		479631ED1F0B7EC2004EF0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = JQFaceOCRDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQFaceOCRDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JQFaceOCRDemo.app/JQFaceOCRDemo";
+			};
+			name = Release;
+		};
+		479631EF1F0B7EC2004EF0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = JQFaceOCRDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQFaceOCRDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JQFaceOCRDemo;
+			};
+			name = Debug;
+		};
+		479631F01F0B7EC2004EF0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				INFOPLIST_FILE = JQFaceOCRDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQFaceOCRDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JQFaceOCRDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		479631B61F0B7EC2004EF0F7 /* Build configuration list for PBXProject "JQFaceOCRDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479631E61F0B7EC2004EF0F7 /* Debug */,
+				479631E71F0B7EC2004EF0F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		479631E81F0B7EC2004EF0F7 /* Build configuration list for PBXNativeTarget "JQFaceOCRDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479631E91F0B7EC2004EF0F7 /* Debug */,
+				479631EA1F0B7EC2004EF0F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		479631EB1F0B7EC2004EF0F7 /* Build configuration list for PBXNativeTarget "JQFaceOCRDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479631EC1F0B7EC2004EF0F7 /* Debug */,
+				479631ED1F0B7EC2004EF0F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		479631EE1F0B7EC2004EF0F7 /* Build configuration list for PBXNativeTarget "JQFaceOCRDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479631EF1F0B7EC2004EF0F7 /* Debug */,
+				479631F01F0B7EC2004EF0F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 479631B31F0B7EC2004EF0F7 /* Project object */;
+}
